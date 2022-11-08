@@ -1,0 +1,68 @@
+body {
+  background: black;
+  color: #353535;
+  margin: 1rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+  width: 550px;
+  background: #f4f4f4;
+
+  height: 729px;
+
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.header {
+  background: #6943ff;
+  padding: 20px;
+  color: #f4f4f4;
+}
+.btn {
+  border: 0;
+  padding: 10px 30px;
+  margin: 10px;
+  font-size: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 3px;
+  color: #353535;
+}
+#input-el {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  font-size: 40px;
+  display: inline-block;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  outline: 0;
+  width: 100px;
+  border-radius: 5px;
+  background: inherit;
+  color: #f4f4f4;
+  font-weight: bold;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+}
+.card {
+  background: white;
+  margin: 20px;
+  border-radius: 5px;
+  height: 90px;
+}
+.units {
+  color: #5a537b;
+}
+::placeholder {
+  color: rgba(255, 255, 255, 0.466);
+  font-size: 20px;
+  margin: auto;
+  white-space: wrap;
+}
